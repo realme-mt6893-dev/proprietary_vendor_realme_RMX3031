@@ -645,6 +645,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/imx471_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx471_mipi_raw_20615_tuning.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/imx682_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx682_mipi_raw_20615_tuning.so \
@@ -1633,6 +1634,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/realme/RMX3031/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
