@@ -2630,7 +2630,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcodec2_hidl-mtk@1.0 \
     libcodec2_vndk-mtk \
-    libpowerhal \
     libwifi-hal-mtk \
     ImsService \
     mediatek-common \
