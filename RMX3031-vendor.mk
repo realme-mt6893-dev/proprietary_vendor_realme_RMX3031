@@ -331,7 +331,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/etc/wifi/wifi_passive_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_passive_channel.cfg \
     vendor/realme/RMX3031/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/RMX3031/proprietary/odm/etc/init/init.SN100x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.SN100x.nfc.rc \
-    vendor/realme/RMX3031/proprietary/odm/etc/init/init.SN100x.se.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.SN100x.se.rc
+    vendor/realme/RMX3031/proprietary/odm/etc/init/init.SN100x.se.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.SN100x.se.rc \
     vendor/realme/RMX3031/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
     vendor/realme/RMX3031/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
     vendor/realme/RMX3031/proprietary/odm/firmware/aw8697_haptic_170_soft.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170_soft.bin \
@@ -340,10 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/firmware/fastchg/20615/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20615/charging_thermal_config_default.txt \
     vendor/realme/RMX3031/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
     vendor/realme/RMX3031/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
-    vendor/realme/RMX3031/proprietary/odm/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_226Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_226Hz.bin \
-    vendor/realme/RMX3031/proprietary/odm/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_230Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_230Hz.bin \
-    vendor/realme/RMX3031/proprietary/odm/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_234Hz.bin \
-    vendor/realme/RMX3031/proprietary/odm/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_237Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx/tfa98xx_vibrator_remain_12_RTP_56_237Hz.bin \
     vendor/realme/RMX3031/proprietary/odm/firmware/tp/20615/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/FW_FT3518_SAMSUNG.img \
     vendor/realme/RMX3031/proprietary/odm/firmware/tp/20615/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/FW_FT3518_SAMSUNG_FAE.img \
     vendor/realme/RMX3031/proprietary/odm/firmware/tp/20615/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20615/LIMIT_FT3518_SAMSUNG.img \
