@@ -346,216 +346,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/realme/RMX3031/proprietary/odm/lib/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.capacitive.hal.so \
     vendor/realme/RMX3031/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/hi846_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/hi846_mipi_raw_20615_tuning.so \
     vendor/realme/RMX3031/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
     vendor/realme/RMX3031/proprietary/odm/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/imx471_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx471_mipi_raw_20615_tuning.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/imx682_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx682_mipi_raw_20615_tuning.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/lib2DSlender.so:$(TARGET_COPY_OUT_ODM)/lib/lib2DSlender.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoInterface.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoProcess.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncFilter.so:$(TARGET_COPY_OUT_ODM)/lib/libAncFilter.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumBokeh.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumBokehPost.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumBokehPost.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumVideoBase.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumVideoBasePost.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumVideoBasePost.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumanDoubleExposure.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumanDoubleExposure.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumanRetain.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumanRetain.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libAncHumanSegFigureFusion.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumanSegFigureFusion.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib/libBokehPre.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCNamaSDK_vendor.so:$(TARGET_COPY_OUT_ODM)/lib/libCNamaSDK_vendor.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libCOppLceTonemapAPI.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Capture_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Capture_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Capture_Preview_Zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Capture_Preview_Zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_FaceBeauty_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_FaceBeauty_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_FaceBeauty_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_FaceBeauty_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Face_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Face_SuperNight_Hand_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Face_SuperNight_Hand_Capture_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Face_SuperNight_Hand_Capture_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Face_Zoom_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Face_Zoom_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_LHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_LHDR_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_LHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_LHDR_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_P1_YUV.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_P1_YUV.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Production_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Production_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Professional_Preview_Zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Professional_Preview_Zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_RHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_RHDR_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_RHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_RHDR_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_SuperNight_Hand_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_SuperNight_Hand_Capture_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_SuperNight_Hand_Capture_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_SuperNight_Hand_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_SuperNight_Hand_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_SuperNight_Tripod_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_SuperNight_Tripod_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_SuperNight_Tripod_Capture_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_SuperNight_Tripod_Capture_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Video_1080p_30fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Video_1080p_30fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Video_1080p_30fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Video_1080p_30fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Video_1080p_60fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Video_1080p_60fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Video_720p_30fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Video_720p_30fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Video_720p_30fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Video_720p_30fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Video_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Video_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_Zoom_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_Zoom_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_portrait_capture_full.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_portrait_capture_full.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_portrait_capture_hdr.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_portrait_capture_hdr.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_portrait_preview_full.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_portrait_preview_full.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_zHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_zHDR_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_hi846mipiraw20615_zHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_hi846mipiraw20615_zHDR_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3HDR_Preivew.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3HDR_Preivew.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Capture_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Capture_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Capture_480P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Capture_480P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Capture_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Capture_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Preview_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Preview_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Preview_480P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Preview_480P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Preview_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Preview_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_3rd_Preview_Other.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_3rd_Preview_Other.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_AI_Video_60fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_AI_Video_60fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_FaceBeauty_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_FaceBeauty_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_FaceBeauty_Capture_Bining.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_FaceBeauty_Capture_Bining.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_FaceBeauty_Capture_NoFace.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_FaceBeauty_Capture_NoFace.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_FaceBeauty_Scene_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_FaceBeauty_Scene_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_FaceUnlock.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_FaceUnlock.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Flash_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Flash_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_ITS_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_ITS_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Panorama.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Panorama.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Production_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Production_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Scene_Capture_Bining.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Scene_Capture_Bining.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Scene_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Scene_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_SuperNight_Hand_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_SuperNight_Hand_Capture_Flash.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_SuperNight_Hand_Capture_Flash.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_SuperNight_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_SuperNight_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Video_120fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Video_120fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Video_Recording_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Video_Recording_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_Video_Recording_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_Video_Recording_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_WeChatQQ_Capture_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_WeChatQQ_Capture_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_WeChatQQ_Capture_480P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_WeChatQQ_Capture_480P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_WeChatQQ_Capture_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_WeChatQQ_Capture_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_WeChatQQ_Preview_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_WeChatQQ_Preview_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_WeChatQQ_Preview_480P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_WeChatQQ_Preview_480P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_WeChatQQ_Preview_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_WeChatQQ_Preview_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_YUVHDR_Capture_Binning.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_YUVHDR_Capture_Binning.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_YUVHDR_FaceBeauty_Capture_Binning_NoFace.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_YUVHDR_FaceBeauty_Capture_Binning_NoFace.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_portrait_capture_Blurless.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_portrait_capture_Blurless.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_portrait_capture_Blurless_After.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_portrait_capture_Blurless_After.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_portrait_capture_full.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_portrait_capture_full.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_portrait_capture_hdr.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_portrait_capture_hdr.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_portrait_preview_full.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_portrait_preview_full.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx471mipiraw20615_zHDR_Capture_Binning.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx471mipiraw20615_zHDR_Capture_Binning.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Capture_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Capture_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Capture_480P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Capture_480P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Capture_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Capture_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Preview_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Preview_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Preview_480P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Preview_480P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Preview_720P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Preview_720P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_3rd_Video_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_3rd_Video_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AIHDR.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AIHDR.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AIHDR_Face.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AIHDR_Face.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AIHDR_Face_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AIHDR_Face_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AIHDR_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AIHDR_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AINR_Main_LLS.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AINR_Main_LLS.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AINR_Main_LLS_Face.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AINR_Main_LLS_Face.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AIShutter.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AIShutter.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_AIShutter_Face.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_AIShutter_Face.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_64M.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_64M.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_64M_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_64M_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_64M_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_64M_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_MF.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_MF.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_PF.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_PF.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_Zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_Zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Capture_Preview_Zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Capture_Preview_Zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_FaceBeauty_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_FaceBeauty_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Face_Capture_64M_MFNR.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Face_Capture_64M_MFNR.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Face_Capture_64M_Single.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Face_Capture_64M_Single.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Face_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Face_SuperNight_Hand_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Face_SuperNight_Hand_Capture_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Face_SuperNight_Hand_Capture_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Face_SuperNight_Hand_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Face_SuperNight_Hand_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Flash_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Flash_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_HDR_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_HDR_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_LHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_LHDR_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_LHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_LHDR_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_P1_YUV.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_P1_YUV.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Panorama_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Panorama_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Production_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Production_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Professional_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Professional_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Professional_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Professional_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_RHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_RHDR_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_RHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_RHDR_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture_64M_MFNR.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture_64M_MFNR.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture_64M_Single.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture_64M_Single.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture_BlueSky.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture_BlueSky.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture_Food.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture_Food.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture_Grass.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture_Grass.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Scene_Capture_Text.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Scene_Capture_Text.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_SuperNight_Hand_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_SuperNight_Hand_Capture_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_SuperNight_Hand_Capture_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_SuperNight_Hand_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_SuperNight_Hand_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_SuperNight_Tripod_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_SuperNight_Tripod_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_SuperNight_Tripod_Capture_Zoom.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_SuperNight_Tripod_Capture_Zoom.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_120fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_120fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_30fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_30fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_30fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_30fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_30fps_zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_30fps_zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps_pro.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps_pro.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps_zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_1080p_60fps_zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_480p.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_480p.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_4k_30fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_4k_30fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_4k_30fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_4k_30fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_4k_30fps_zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_4k_30fps_zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_4k_60fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_4k_60fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_240fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_240fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_30fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_30fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_30fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_30fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_30fps_zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_30fps_zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_60fps.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_60fps.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_60fps_zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_60fps_zoom_2x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_720p_60fps_zoom_4x.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_720p_60fps_zoom_4x.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P_Face.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P_Face.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P_Face_Reconfig.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P_Face_Reconfig.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P_Reconfig.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Video_Enhance_1080P_Reconfig.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_WeChatQQ_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_WeChatQQ_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_WeChatQQ_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_WeChatQQ_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_WeChatQQ_Video.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_WeChatQQ_Video.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_WeChatQQ_VideoCall.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_WeChatQQ_VideoCall.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_Zoom_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_Zoom_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_portrait_capture_Blurless.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_portrait_capture_Blurless.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_portrait_capture_Blurless_After.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_portrait_capture_Blurless_After.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_portrait_capture_full.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_portrait_capture_full.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_portrait_capture_hdr.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_portrait_capture_hdr.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_portrait_preview_full.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_portrait_preview_full.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_zHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_zHDR_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_imx682mipiraw20615_zHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_imx682mipiraw20615_zHDR_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_E2EHDR_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_E2EHDR_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_E2EHDR_Video.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_E2EHDR_Video.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Face_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Flash_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Flash_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_HDR_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_HDR_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_HDR_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_HDR_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_HDR_Video.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_HDR_Video.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_N3D_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_N3D_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_N3D_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_N3D_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_N3D_Video.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_N3D_Video.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_P1_YUV.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_P1_YUV.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Scene_Capture.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Scene_Capture_4cell.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Scene_Preview.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Scene_Preview.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Scene_Preview_4k.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Scene_Preview_4k.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Video_1080.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Video_1080.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libCamera_ov02b10mipiraw20615_Video_4k.so:$(TARGET_COPY_OUT_ODM)/lib/libCamera_ov02b10mipiraw20615_Video_4k.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib/libEIS.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libFaceBeautyCap.so:$(TARGET_COPY_OUT_ODM)/lib/libFaceBeautyCap.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libFaceBeautyPre.so:$(TARGET_COPY_OUT_ODM)/lib/libFaceBeautyPre.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib/libFilterWrapper.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib/libOGLManager.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib/libOPLUS_SCPortrait.so \
@@ -575,13 +375,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib/libXDocProcessSDK.so \
     vendor/realme/RMX3031/proprietary/odm/lib/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/lib_aurisys_lvimfs.so \
     vendor/realme/RMX3031/proprietary/odm/lib/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib/lib_rectify.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libaiseg.so:$(TARGET_COPY_OUT_ODM)/lib/libaiseg.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib/libalCFR.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libanc_np-loader.so:$(TARGET_COPY_OUT_ODM)/lib/libanc_np-loader.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libancbase_rt_bokeh.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libancbase_rt_fusion.so:$(TARGET_COPY_OUT_ODM)/lib/libancbase_rt_fusion.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libancbase_rt_retain.so:$(TARGET_COPY_OUT_ODM)/lib/libancbase_rt_retain.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib/libapsexif.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib/libapsjpeg.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
@@ -601,7 +396,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G5.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G6.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G7.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libhci_face_camera_api.so:$(TARGET_COPY_OUT_ODM)/lib/libhci_face_camera_api.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib/libhyperlapse.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libimgClarityEvaluate.so:$(TARGET_COPY_OUT_ODM)/lib/libimgClarityEvaluate.so \
     vendor/realme/RMX3031/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
@@ -620,15 +414,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
     vendor/realme/RMX3031/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_ODM)/lib/libstagefrightdolby.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstblur_api.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libstdc++.so:$(TARGET_COPY_OUT_ODM)/lib/libstdc++.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/libstface_fd_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstface_fd_api.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib/libswresample.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib/libswscale.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib/libtflite_mtk_static.so \
     vendor/realme/RMX3031/proprietary/odm/lib/libui.so:$(TARGET_COPY_OUT_ODM)/lib/libui.so \
-    vendor/realme/RMX3031/proprietary/odm/lib/ov02b10_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/ov02b10_mipi_raw_20615_tuning.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/RMX3031/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
@@ -652,21 +442,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/imx471_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx471_mipi_raw_20615_tuning.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/imx682_mipi_raw_20615_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx682_mipi_raw_20615_tuning.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/lib2DSlender.so:$(TARGET_COPY_OUT_ODM)/lib64/lib2DSlender.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncFilter.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncFilter.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokeh.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumBokehPost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokehPost.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBase.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumVideoBasePost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBasePost.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumanDoubleExposure.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanDoubleExposure.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumanRetain.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanRetain.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncHumanSegFigureFusion.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanSegFigureFusion.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncSegBaseSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegBaseSdk.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCNamaSDK_vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libCNamaSDK_vendor.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libCamera_hi846mipiraw20615_Capture_Preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_hi846mipiraw20615_Capture_Preview.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libCamera_hi846mipiraw20615_Capture_Preview_Zoom_2x.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_hi846mipiraw20615_Capture_Preview_Zoom_2x.so \
@@ -851,23 +627,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/libCamera_ov02b10mipiraw20615_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_ov02b10mipiraw20615_Scene_Preview_ZSD_Flash.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libCamera_ov02b10mipiraw20615_Video_1080.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_ov02b10mipiraw20615_Video_1080.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libCamera_ov02b10mipiraw20615_Video_4k.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_ov02b10mipiraw20615_Video_4k.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipCommon.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParamProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParamProcess.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter0.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter0.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter1.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter1.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter2.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter2.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter3.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter3.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter4.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter4.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter5.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter5.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter6.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter6.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipParameter7.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter7.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libCipo_awb.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipo_awb.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libEIS.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libFDClite.so:$(TARGET_COPY_OUT_ODM)/lib64/libFDClite.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libFaceBeautyCap.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyCap.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libFaceBeautyPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyPre.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libFaceDistortionCorrection.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceDistortionCorrection.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
@@ -894,12 +656,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/libaisd.so:$(TARGET_COPY_OUT_ODM)/lib64/libaisd.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libaiseg.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiseg.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib64/libalCFR.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libanc_np-loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libanc_np-loader.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_bokeh.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libancbase_rt_fusion.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_fusion.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libancbase_rt_retain.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_retain.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libancbase_segbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_segbase.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libancbase_segment.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_segment.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
@@ -923,7 +679,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G5.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G6.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G7.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libhci_face_camera_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libhci_face_camera_api.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libhwm-oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwm-oplus.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib64/libhyperlapse.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libimgClarityEvaluate.so:$(TARGET_COPY_OUT_ODM)/lib64/libimgClarityEvaluate.so \
@@ -947,10 +702,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/odm/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaic_wrapper.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_ODM)/lib64/libremosaiclib.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib64/librpmbengclient.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_api.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libstdc++.so:$(TARGET_COPY_OUT_ODM)/lib64/libstdc++.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstface_fd_api.so \
-    vendor/realme/RMX3031/proprietary/odm/lib64/libstfd_mobile_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstfd_mobile_api.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libswresample.so:$(TARGET_COPY_OUT_ODM)/lib64/libswresample.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
     vendor/realme/RMX3031/proprietary/odm/lib64/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfavib.so \
@@ -1566,11 +1317,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/gc02m1_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_21651_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/gc02m1b_mipi_mono20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono20817_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/gc02m1b_mipi_mono21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono21881_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/gc02m1b_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/hi846_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi846_mipi_raw_20615_IdxMgr.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6893.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6893.so \
@@ -1594,46 +1340,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx355_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw20817_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx355_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw21015_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx355_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw21881_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx355_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_21061_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx355_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_21651_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx355_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx471_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_20615_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx471_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_20619_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx471_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_21651_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx471_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx615_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw20817_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx615_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw21881_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx615_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx682_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx682_mipi_raw_20615_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx709_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx709_mipi_raw21015_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx766_mipi_raw20817_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw20817_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx766_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw21015_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/imx766_mipi_raw21881_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw21881_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.stat.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.af.assist.models.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.models.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.af.assist.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.af.assist.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.utils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.aishutter.models.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.aishutter.models.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.alsflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.alsflicker.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.core.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.ccudrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccudrv.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.ccuif.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccuif.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.custom.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.custom.ae.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flash.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flicker.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.gma.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.gma.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.lce.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.n3d3a.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.sensors.color.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.sensors.color.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/lib3a.sensors.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.sensors.flicker.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
@@ -1671,11 +1377,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_moon.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_moon_model.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_p1ggm.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun_model.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libainrcore.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalacdec_mtk.so \
@@ -1687,9 +1388,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.vndk.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libaudio_engineer_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_engineer_test.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
@@ -1713,51 +1411,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.afhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.afhal.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.feature_utils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.log.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.ae.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.ai3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.ai3a.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.awb.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.fsmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.fsmgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.lscMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lscMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.lsctbl.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lsctbl.50.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.nvram.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.nvram.50.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.platform.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.resultpool.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.resultpool.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.halisp.buf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halisp.buf.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.pdtblgen.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.seninfn3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.seninfn3d.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.tuning.cache.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.tuning.cache.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.vhdr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.3dnr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.aibc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.aibc.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.aidepth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.aidepth.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.aihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.aihdr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.ainr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ainr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.dngop.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.eis.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fsc.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.gyro.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ispfeature.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lmv.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.mfnr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.n3d.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.nr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform2.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.rotate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.rotate.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.vaidepth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.vaidepth.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.vsf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.vsf.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.warp.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
@@ -1794,15 +1447,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.stereo.provider.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.vsdof.hal.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_3dnr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_eis.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_fsc.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_lmv.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_rss.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv_mem.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
@@ -1860,46 +1504,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsnr.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.featurepipe.capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.capture.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.featurepipe.depthmap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.depthmap.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.streaming.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.vsdof_util.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.logicalmodule.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_3rdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.core.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.customer.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_3rdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.mtk.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_3rdparty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_convertor.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_provider.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_diputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_diputils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_exif.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_fdvt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fdvt.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_grallocutils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwnode.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwutils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_mapping_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mapping_mgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metastore.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_mfb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mfb.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulehelper.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_owe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_owe.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline_fbm.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_pipelinemodel_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipelinemodel_isp.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_prerelease.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_prerelease.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_rsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_rsc.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_scenariorecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_scenariorecorder.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_streamutils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_synchelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_synchelper.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_sysutils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcam_vsync_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_vsync_util.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkisp_metadata.so \
@@ -2001,15 +1605,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libneuron_platform.vpu.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libnir_neon_driver.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libpq_prot.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov02b10_mipi_raw21015_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw21015_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov02b10_mipi_raw_20615_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_20615_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov02b10_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_20619_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov02b10_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_21061_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov02b10_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b10_mipi_raw_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov64b_mipi_raw_20619_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_20619_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov64b_mipi_raw_21061_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_21061_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov64b_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_21651_IdxMgr.so \
-    vendor/realme/RMX3031/proprietary/vendor/lib/ov64b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b_mipi_raw_IdxMgr.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/realme/RMX3031/proprietary/vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
